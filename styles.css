@@ -1,0 +1,86 @@
+body{
+    background-color: #FFFBEB;
+}
+
+h1 {
+    color: #251749;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    color: #495579;
+    text-decoration: none;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+    text-decoration: none;
+  }
+
+  .nav-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default;
+  }
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.site-logo {
+    display: block;
+    padding: 0.5rem 1rem;
+
+}
+
+
+.hero {
+    width: 80%;
+    min-height: 40em;
+    margin:auto;
+    border: solid 2px #251749;
+
+    background-image: url("https://www.hiltongrandvacations.com/-/media/images/main/blogs/2020/07/travel-bucket-list-ideas-14-must-see-travel-photo-spots-in-hawaii_header_july_20/image.jpg?h=483&w=724&hash=4A26E8155B519F9480FE8C792F73761A");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.entries {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
