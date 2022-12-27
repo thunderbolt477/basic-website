@@ -50,17 +50,31 @@ Appropriate labels for the above
             </div>
         </div>
     </div>
+    <h1>
+        Tell Us More!
+    </h1>
     <form action="post">
         <fieldset>
-            <label for="destination">Where did you want to go</label>
-            <input type="text" name="destination" id="destination">
-            <label for="activities">What did you want to do there</label>
-            <input type="text" name="activities" id="activities">
-            <label for="newsletter">Check here if you want to receive our newsletter</label>
-            <input type="checkbox" name="newsletter" id="newsletter">
-            <label for="comments">Any comments?</label>
-            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-            <button type="submit">Submit</button>
+            <div class="form">
+                <label for="destination">Where did you want to go</label><br>
+                <input type="text" name="destination" id="destination">
+            </div>
+            <div class="form">
+                <label for="activities">What did you want to do there</label><br>
+                <input type="text" name="activities" id="activities">
+            </div>
+            <div class="form">
+                <label for="comments">Any comments?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Check here if you want to receive our newsletter</label>
+            </div>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+
         </fieldset>
     </form>
 
