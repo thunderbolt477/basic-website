@@ -1,1 +1,1 @@
-basic website for app academy captstone project.
+basic website. idea was a travel blog website
